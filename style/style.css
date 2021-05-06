@@ -1,0 +1,227 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&family=Montserrat+Alternates&family=Roboto&display=swap');
+
+body{
+    background: url("../imagens/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 2;
+    font-weight: 700;
+}
+h1,h2,h3{
+    font-family: 'Great Vibes';
+    font-weight: 900;
+}
+
+.italic{
+    font-style: italic;
+}
+.title{
+    text-align: center;
+    margin: 50px;
+    font-family: 'Great Vibes';
+}
+
+.title2{
+    margin-bottom: 20px;
+    font-family: 'Great Vibes';
+    margin-top: 30px;
+}
+
+
+
+/* nav */
+
+
+.logo{
+    width: 150px;
+}
+.bg-dark{
+    background-color: black;
+}
+.navbar{
+    background-color: black;
+}
+
+
+
+/*Home */
+
+.ecran-inteiro{
+    height: 40vh;
+}
+
+
+/* Img */
+
+.image{
+    height: 278px;
+    width: 200px;
+}
+
+.house{
+    width: 100%;
+    display: block;
+}
+
+.dvd{
+    max-width: 100%;
+}
+
+
+
+/* layout */
+.grid2{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 70% 40px 30%;
+    grid-template-columns: 70% 30%;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.grid-2{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% 30px 50%;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+    margin-bottom: 60px;
+
+}
+
+.white-space{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.text{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    line-height: 40px;
+}
+
+
+
+
+#Gryffindor, #Hufflepuff, #Ravenclaw, #Slytherin{
+    display: none;
+}
+
+
+
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 30px;
+    margin-top:50px
+  }
+  .button:focus{
+    outline:none;
+  }
+
+  .linkes:link, .linkes:visited {
+    background-color: black;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+  }
+  
+
+
+.center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+select{
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    border:2px solid black
+}
+select:focus{
+    outline:none;
+  }
+.container{
+    min-height: 100vh;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    .grid2,.grid-2{
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+        gap: 40px;
+    }
+    .image{
+        text-align: center;
+    }
+    .order1{
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+    .order2{
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
+    .ecran-inteiro{
+        height: 80vh;
+    }
+    .title{
+        margin:0;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+  }
